@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    tools:context="com.example.mna_rajput.apptechlab2intent.MainActivity">
+
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Screen"/>
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register E-mail"
+        android:layout_below="@+id/LoginBtn"/>
+    <Button
+        android:id="@+id/SignUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_below="@+id/Register"/>
+    <Button
+        android:id="@+id/RestPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rest Password"
+        android:layout_below="@+id/SignUpBtn"
+        />
+    <Button
+        android:id="@+id/DeleteAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:layout_below="@+id/RestPassword"/>
+    <Button
+        android:id="@+id/GoogleMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Map"
+        android:layout_below="@+id/DeleteAccount"/>
+    <Button
+        android:id="@+id/StudentForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Form"
+        android:layout_below="@+id/GoogleMap"/>
+    <Button
+        android:id="@+id/EmployeeForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee Form"
+        android:layout_below="@+id/StudentForm"/>
+</RelativeLayout>
