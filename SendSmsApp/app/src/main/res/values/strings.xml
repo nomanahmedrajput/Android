@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SendSmsApp</string>
+    <string name="send">Send</string>
+    <string name="micicon">micIcon</string>
+</resources>

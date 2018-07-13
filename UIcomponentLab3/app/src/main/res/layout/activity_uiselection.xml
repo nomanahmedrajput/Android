@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="120dp"
+    tools:context="com.example.mna_rajput.uicomponentlab3.UISelectionActivity">
+
+    <Button
+        android:id="@+id/togglebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Toggle Button Program"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/checkboxbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Check Box Program"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/togglebtn"
+        />
+    <Button
+        android:id="@+id/alertbuilder"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Alert Builder Program"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/checkboxbtn"
+        />
+    <Button
+        android:id="@+id/radiobtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="radio Button Program"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/alertbuilder"
+        />
+
+</RelativeLayout>
