@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mna_rajput.fragment.MainActivity">
+
+    <Button
+        android:id="@+id/frag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FragmentOne"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:onClick="ChangeFragment"/>
+
+    <Button
+        android:id="@+id/frag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FragmentTwo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="64dp"
+        android:onClick="ChangeFragment"/>
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.mna_rajput.fragment.FragmentOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_one" />
+</LinearLayout>

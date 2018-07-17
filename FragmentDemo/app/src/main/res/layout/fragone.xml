@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/frag-one"
-    android:background="#6928">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
 
     <Button
+        android:id="@+id/btn_fragone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_fragone"
-        android:text="Click me"/>
+        android:text="Click me" />
 
 </RelativeLayout>
