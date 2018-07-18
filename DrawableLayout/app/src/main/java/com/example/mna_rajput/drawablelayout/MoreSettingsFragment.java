@@ -9,13 +9,13 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class SigninFragment extends Fragment {
+public class MoreSettingsFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_signin, container, false);
+        return inflater.inflate(R.layout.fragment_more_settings, container, false);
     }
 
 }
